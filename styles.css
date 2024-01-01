@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #32612D; /* Set a darker shade of green using a hex color code */
+    color: white; /* Set text color to contrast with the background */
+}
+
+.container {
+    padding: 0px;
+    margin-top: 50px;
+    text-align: center; /* Align content in the center */
+    width: 100%; /* Adjust as needed */
+  }
+  
+  .header_text1 {
+    margin: 0;
+    padding: 0px; /* Add padding as needed */
+    font-size: 4em; /* Adjust the font size as desired */
+  }
+  .header_text2 {
+    margin: 0;
+    padding: 0px; /* Add padding as needed */
+    font-size: 2em; /* Adjust the font size as desired */
+  }
+
+/* For devices with a screen width similar to iPhone 14 (approx.) */
+@media only screen 
+  and (max-device-width: 1170px) 
+  and (max-device-height: 2532px) 
+  and (-webkit-device-pixel-ratio: 3) { /* Adjust pixel ratio accordingly */
+  
+  .container {
+    width: 90%;
+    /* Other adjustments for this screen size */
+  }
+}
+
+.gif_container {
+    margin-top: -80px; /* Adjust the value as needed to move the GIF higher */
+  }
